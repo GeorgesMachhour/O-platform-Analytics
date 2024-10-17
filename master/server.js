@@ -8,7 +8,7 @@ const cors = require('cors');
 const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
-const MONGO_URI = 'mongodb://10.20.8.4:27017'; // Change this to your MongoDB URI
+const MONGO_URI = 'mongodb://10.X.X.4:27017'; // Change this to your MongoDB URI
 const DB_NAME = 'oplatform_analytics'; // Change this to your MongoDB database name
 // Middleware
 app.use(cors());
